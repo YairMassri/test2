@@ -22,6 +22,6 @@ var monthsToPrint = 12;
 while (monthNumber <= monthsToPrint) {
     var i = numGoldfish * 4;
     console.log("There will be " + i + " goldfish after " + monthNumber + " month(s)!");
-    i * 4;
+    numGoldfish = i;
     monthNumber++;
 }
